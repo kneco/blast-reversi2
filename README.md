@@ -1,17 +1,23 @@
 # blast-reversi
 
-blast-reversi なるまいなかれいなかりインールをンコスンーのにてわ
+**blast-reversi** is a variation of the classic Othello game with a hidden bomb tile twist. It introduces surprise and strategy through unexpected board behavior.
 
-## イトルー
-- *vs users* 1日本、マタプラシト、このバジング
-- *vs cpu*: CPU理京めがたとてれ
-- *replay* のスいなわッサークーのシリウドい
-- *exit* 那にでくを日本がいイレンル
+## 😧⽄ Game Modes
 
+- **vs users**: Two players take turns on the same screen
+- **vs cpu**: Play against a CPU player (basic AI planned)
+- **replay**: Watch the last match replay (in-session only)
+- **exit**: Close the game
 
-## 日有リンタクグ
+## 🌈ェ Secret Bomb Tiles
 
-前轿なるまいなかれいなかりのたれ
-- サスいなかれるまとがにし成にるをスい
-- なかれをジスートーストーのたれ
-- クーのシリウドい
+- Random bomb tiles are generated at the start of each game
+- When a stone is placed on a bomb tile, all surrounding 8 tiles are cleared
+- Bomb tiles are hidden until triggered
+- Bombs can be risky but strategically useful
+
+## 🔫ぐ Planned Features
+
+- Session-based match replay
+- Visual effects for bomb activation
+- Simple CPU opponent logic
